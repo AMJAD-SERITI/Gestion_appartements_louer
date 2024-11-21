@@ -1,10 +1,10 @@
-package org.amjad.authentification;
+package org.amjad.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AuthentificationApplicationTests {
+class ConfigServerApplicationTests {
 
     @Test
     void contextLoads() {

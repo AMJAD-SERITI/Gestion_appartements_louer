@@ -6,7 +6,16 @@
       <list>
         <option value="$PROJECT_DIR$/Appartement_Service/pom.xml" />
         <option value="$PROJECT_DIR$/Authentification/pom.xml" />
+        <option value="$PROJECT_DIR$/Gateway_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/Messagerie_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Config-Server/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Authentification/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager">

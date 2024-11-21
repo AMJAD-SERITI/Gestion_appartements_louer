@@ -8,14 +8,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Appartement_Service" />
-        <module name="Authentification" />
+        <module name="Gateway_Service" />
+        <module name="Messagerie_Service" />
+        <module name="eureka-discovery" />
+        <module name="Config-Server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Authentification" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Appartement_Service" options="-parameters" />
       <module name="Authentification" options="-parameters" />
+      <module name="Config-Server" options="-parameters" />
+      <module name="Gateway_Service" options="-parameters" />
+      <module name="Messagerie_Service" options="-parameters" />
+      <module name="eureka-discovery" options="-parameters" />
     </option>
   </component>
 </project>

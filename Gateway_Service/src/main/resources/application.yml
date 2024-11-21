@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: r1
+          uri: lb://APPARTEMENT-SERVICE
+          predicates:
+            - Path= /api/appartements/**
