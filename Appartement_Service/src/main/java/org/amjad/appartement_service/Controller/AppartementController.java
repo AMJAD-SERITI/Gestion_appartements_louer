@@ -27,11 +27,11 @@ public class AppartementController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-@PostMapping(value = "/create")
-public ResponseEntity<Appartement> createAppartement(@RequestBody Appartement appartement) {
-    Appartement savedAppartement = service.saveAppartement(appartement);
-    return ResponseEntity.ok(savedAppartement);
-}
+    @PostMapping(value = "/create")
+    public ResponseEntity<Appartement> createAppartement(@RequestBody Appartement appartement) {
+        Appartement savedAppartement = service.saveAppartement(appartement);
+        return ResponseEntity.ok(savedAppartement);
+    }
 
 
     @DeleteMapping("/delete/{id}")

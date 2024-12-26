@@ -6,3 +6,19 @@ spring:
           uri: lb://APPARTEMENT-SERVICE
           predicates:
             - Path= /api/appartements/**
+        - id: reservation-service
+          uri: lb://RESERVATION-SERVICE
+          predicates:
+            - Path=/api/reservations/**
+
+        - id: Notification-service
+          uri: lb://NOTIFICATION-SERVICE
+          predicates:
+            - Path=/api/notifications/**
+
+
+
+
+
+
+
